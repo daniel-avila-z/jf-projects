@@ -2,6 +2,11 @@ header {
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: #2f4858eb;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #2f4858eb;
+    position: fixed;
+    width: 100%;
 }
 .header-main-container{
     width: 100%;
@@ -10,6 +15,8 @@ header {
     flex-wrap: wrap;
     align-items: center;
     padding: 0px 0px 0px 20px;
+    gap: 40px;
+
 }
 .header-title-container{
     width: auto;
@@ -18,4 +25,26 @@ header {
 .header-title{
     width: auto;
     color: #fffd00;
+}
+.user-main-container{
+    color: #ffff00;
+    width: 12vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-login :hover{
+    text-decoration: underline;
+    
+}
+.user-span{
+
+}
+.user-link{
+
+}
+.user-signup :hover{
+    text-decoration: underline;
 }

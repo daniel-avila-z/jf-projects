@@ -1,0 +1,65 @@
+/* header{
+    background-color: rgb(206 253 255);
+
+    background-image: url('../../../public/assets/mockups/sede3.jpg');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: cover;
+} */
+.copy-main-container{
+    background-color: rgb(117 197 241);
+    background-image: url(/_next/static/media/sell4.832bfe23.jpg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: center;
+    background-size: cover;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    /* grid-template-columns: 1fr 1fr; */
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.copy-container{
+    height: 20vh;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.copywriting{
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    /* font-weight: bold; */
+    font-weight: 600;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 50px 0px 50px 0px;
+    line-height: 2;
+    backdrop-filter: blur(1px);
+}
+.copyspan{
+    text-shadow: 1px 1px 4px #ffff00e8;
+    color: rgb(255 255 255);
+}
+.image-copy{
+    width: auto;
+    object-fit: contain;
+    object-position: top;
+    height: fit-content;
+    place-self: center;
+}
+
+.copy-slogan-container{
+
+}
+.copy-slogan {
+    color: rgb(255, 255, 255);
+}
