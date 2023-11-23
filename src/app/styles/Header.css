@@ -7,6 +7,7 @@ header {
     background-color: #2f4858eb;
     position: fixed;
     width: 100%;
+    z-index: 100;
 }
 .header-main-container{
     width: 100%;
