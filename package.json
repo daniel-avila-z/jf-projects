@@ -18,5 +18,8 @@
   },
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json"
+  },
+  "dependencies": {
+    "ldrs": "^1.0.1"
   }
 }

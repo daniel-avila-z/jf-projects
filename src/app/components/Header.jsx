@@ -6,7 +6,7 @@ export default function Header () {
     <header>
       <div className='header-main-container'>
         <div className='header-title-container'>
-          <h1 className='header-title'>JF Projects</h1>
+          <h1 className='header-title'>JF PROJECTS</h1>
         </div>
         <SearchBar />
         <div className='user-main-container'>
